@@ -1,0 +1,23 @@
+0.使用前提是已经安装好ComfyUI生图必须的模型
+
+1.配置好DiceFrame，在模型接口里添加服务商，先配置好deepseek，再配置ComfyUI，后者名称与API Key随意，接口选openAI兼容Base URL:http://127.0.0.1:8192/v1(默认是这个)，选anima模型，类型：图片，分配给：图像生成模型，别忘了点保存
+
+2.运行ComfyUI，挂在后台就行
+
+3.双击运行start-bridge.bat文件
+
+4.可在DiceFrame里用头像生成测试，如果是空白或乱码可能是翻译掉了，改成英文试一下
+
+5.更多说明详见README
+
+0.Prerequisite: The models required for ComfyUI image generation have already been installed.
+
+1.Configure DiceFrame. In the model interface, add a provider. Configure DeepSeek first, then configure ComfyUI. For the latter, the name and API Key can be anything. For the API, choose OpenAI-compatible. Base URL: http://127.0.0.1:8192/v1 (this is the default). Select the anima model. Type: Image. Assign to: Image Generation Model. Don't forget to click Save.
+
+2.Run ComfyUI; just leave it running in the background.
+
+3.Double-click start-bridge.bat to run it.
+
+4.You can test it in DiceFrame by generating an avatar. If it is blank or garbled, it may have been lost in translation; try changing it to English and testing again.
+
+5.For more details, see the README.
